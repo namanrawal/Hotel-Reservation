@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title> List your property - Stay - Inn</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Social Media Button CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script>
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+        </script>
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="about.html">
+                <span><img class="Logo" src="img/logo3.png" width="200px" alt=""></span>
+            </a>
+            <ul>
+                <li><a href="about.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a class="login_Button" href="login.html"> <i class='fas fa-address-book'style='font-size:24px'></i>   Login/Sign-Up </a>
+        </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    
+    <div class="main_header__div d-flex align-items-start
+        justify-content-center  flex-column shadow pl-5">
+    <div class="m-auto content max-width-1 my-2">
+        <div class="content-left">
+            <div class="list_Property"> 
+
+                <form action="/action_page.php">
+                    <Br>
+                    <center><p class="choice">Please select the type of property you want to rent:</p></center>
+                    <Br>
+                       <Br>
+                    <input   type="radio" id="html" name="fav_language" value="Hotel">
+                    <label for="html" style="font-size: 27px;">Hotel</label><br>
+                    <input type="radio" id="css" name="fav_language" value="Home">
+                    <label for="css" style="font-size: 27px;">Home</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="Paying Guest">
+                    <label for="javascript"style="font-size: 27px;">Paying Guest</label>
+                    <br>  <Br><Br>
+                   <center> <input type="text" style="width: 250px; height: 25px; position: relative; " placeholder="Enter your city">    
+                    <Br><Br><label for="cars" style="position: relative; ">Select the no. of rooms</label>
+                    <select name="cars" id="cars" style="position: relative; ">
+                      <optgroup label="Non A/C Rooms">
+                        <option value="volvo">1 room</option>
+                        <option value="saab"> 2 rooms</option>
+                      </optgroup>
+                      <optgroup label="A/C Rooms">
+                        <option value="mercedes">1 room </option>
+                        <option value="audi">2 room</option>
+                      </optgroup>
+                    </select>
+                    <Br><Br>
+                    
+                    <a class="submit_Button">Submit your choice</a></center>
+                  </form>
+                  
+            </div>
+            
+        </div>
+        
+        <div class="content-right">
+            <img src="https://source.unsplash.com/1600x900/?hotel,room" alt="iBlog">
+        </div>
+    </div></div>
+
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div><Br><Br>
+        <img src="img/hotel_branches.PNG" style="width: 100%; border: 2px solid black;">
+    <Br><Br>
+        <div class="max-width-1 m-auto">
+            <hr>
+        </div><Br>
+        <div class="ex2" style="height: 650px; background-image: url(https://www.teahub.io/photos/full/278-2789047_light-colour-background-hd.jpg);"><Br><Br>
+        <center ><h1>  Why Join Stay - Inn ?</h1></center><Br>
+
+        <center><h5 style="position: relative; left: 15px;">Joining the world's largest hospitality network can benefit you in many ways</h5></center><BR><BR>
+        
+            <div><img src="https://prod-disc-disc-part.s3-ap-southeast-1.amazonaws.com/channel_management.jpg" height="70px" style="position: relative; left: 25px; border: 0.5px solid black;"><h2 style="position: relative; top: -70px; left: 120px;  ">Channel Management<Br>
+            <p class="mob" style="font-size: 15px;"> Stay - Inn branded channels and other online channel integrations
+            </p></h2>  </div>
+            <div><img src="https://prod-disc-disc-part.s3-ap-southeast-1.amazonaws.com/revenue_management.jpg" height="70px" style="position: relative; left: 25px; border: 0.5px solid black;"><h2 style="position: relative; top: -70px; left: 120px;  "> Revenue Management<Br>
+                <p class="mob" style="font-size: 15px;"> Dynamic pricing technology to maximize revenue and increase occupancy
+                </p></h2>  </div>
+            <div><img src="https://prod-disc-disc-part.s3-ap-southeast-1.amazonaws.com/technology_image.jpg" height="70px" style="position: relative; left: 25px; border: 0.5px solid black;"><h2 style="position: relative; top: -70px; left: 120px;  "> Technology<Br>
+               <p class="mob" style="font-size: 15px;"> Proprietary cutting-edge technology for property management
+                </p></h2>   </div>
+            <div><img src="https://prod-disc-disc-part.s3-ap-southeast-1.amazonaws.com/guest_experience_image.jpg" height="70px" style="position: relative; left: 25px; border: 0.5px solid black;"> <h2 style="position: relative; top: -70px; left: 120px;  "> Guest Experience<Br>
+               <p class="mob" style="font-size: 15px;"> 24/7 customer support to improve guest experience
+                </p></h2>   </div>
+
+        </div><Br><Br><Br>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+        
+        </div><Br><Br>
+
+        <div class="ex2" style="background-image: url(https://c4.wallpaperflare.com/wallpaper/66/897/103/light-star-beautiful-pattern-wallpaper-preview.jpg);" ><Br><Br>
+            <center ><h1 style="color: black;">Hear from our Partners</h1></center><Br>
+    
+<div>
+    <div style="display: flex;
+    background-color: DodgerBlue;">
+        <div style="  
+        margin: auto;
+        padding: 20px;
+        font-size: 30px;">
+        <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" height="100px" width="100px">
+        <Br>
+            <p >Mr. XYZ</p>
+            <p style="font-size: 15px;">Founder of Akihsna Productions</p>
+
+            </div>
+
+            <div style="  
+            margin: auto;
+            padding: 20px;
+            font-size: 30px;">
+            <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" height="100px" width="100px">
+            <Br>
+                <p>Mr. XYZ</p>
+                <p style="font-size: 15px;">Co-Founder of Akihsna Productions</p>
+
+
+            </div>
+    </div>
+    
+    </div>
+            </div>
+
+    
+        
+    </div>
+    <Br><Br>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div><Br><Br>
+
+        <div class="footer">
+            <Br><Br>
+            <center><h1 style="font-size: 110px;"> Stay - Inn Hotels</h1></center>  
+              <Br><Br><div style=" display: flex;
+                background-color: indigo;">
+                <div style="margin: auto;
+                padding: 20px;" >
+               <ul style="list-style-type:none;">
+    <li style="font-size: 80px;"><a>Hotels near me</a></li><Br>
+    
+               </ul></div>
+               <div style="margin: auto;
+               padding: 20px;" >
+                 <ul style="list-style-type:none;">
+                  <li style="font-size: 30px;"><a>Hotels in Lonavala</a></li><BR>
+                  <li style="font-size: 30px;"><a>Hotels in Udaipur</a></li><BR>
+                  <li style="font-size: 30px;"><a>Hotels in Mussoorie</a></li><BR>
+                    
+    <li style="font-size: 30px;"><a>Hotels in Goa</a></li><BR>
+      <li style="font-size: 30px;"><a>Hotels in Manali</a></li><BR>
+                 </ul>
+                 </div></div><Br>
+             <center> <hr style="width: 70%; "></center><Br>
+             <div  style=" display: flex;
+             background-color: DodgerBlue;" >
+              <div style="margin: auto;
+              padding: 20px;" >  <div class="right_div__title py-4 pl-2 " >
+                    <h2>Follow Me</h2>
+                </div>
+                <div class="right_sub__div d-flex justify-content-around">
+                    <a href="https://www.facebook.com/" target="_blank"> <i
+                            class="fab fa-facebook-square fa-3x"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"> <i
+                            class="fab fa-3x fa-instagram"></i></a>
+                    <a href="https://github.com/" target="_blank"> <i
+                            class="fab fa-3x fa-github-square"></i> </a>
+                    <a href="https://twitter.com/?lang=en" target="_blank"> <i
+                            class="fab fa-3x fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"> <i
+                            class="fab fa-3x fa-linkedin"></i></a>
+                </div></div><Br>
+               
+                <div style="margin: 10px;
+                padding: 20px;"> <div class="right_div__title py-4 pl-2 ">
+                  <h2>Follow Me</h2>
+              </div>
+              <div class="right_sub__div d-flex justify-content-around">
+                  <a href="https://www.facebook.com/" target="_blank"> <i
+                          class="fab fa-facebook-square fa-3x"></i></a>
+                  <a href="https://www.instagram.com/" target="_blank"> <i
+                          class="fab fa-3x fa-instagram"></i></a>
+                  <a href="https://github.com/" target="_blank"> <i
+                          class="fab fa-3x fa-github-square"></i> </a>
+                  <a href="https://twitter.com/?lang=en" target="_blank"> <i
+                          class="fab fa-3x fa-twitter-square"></i></a>
+                  <a href="https://www.linkedin.com/" target="_blank"> <i
+                          class="fab fa-3x fa-linkedin"></i></a>
+              </div></div>
+            </div><Br>
+            <center> <hr style="width: 70%; "></center><Br>
+            <Br><Br>
+              <center><p style="color: Indigo">Copyright &copy; <a href="about.html" target="_blank" style="color: indigo;">Stay-Inn.com</a> </p></center>
+              <center><p style="color: Black">Design Credits: Akihsna Productions </p> <Br><Br><Br></center>
+        </div>
+</body>
+
+</html>

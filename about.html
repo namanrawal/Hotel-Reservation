@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Stay - Inn</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Social Media Button CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script>
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+        </script>
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="about.html">
+                <span><img class="Logo" src="img/logo3.png" width="200px" alt=""></span>
+            </a>
+            <ul>
+                <li><a href="about.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a class="login_Button" href="login.html"> <i class='fas fa-address-book'style='font-size:24px'></i>   Login/Sign-Up </a>
+
+        </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="navbar">
+        
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> 
+          
+           
+
+      </div>
+      
+    <div class="main_header__div d-flex align-items-start
+        justify-content-center  flex-column shadow pl-5">
+    <div class="m-auto content max-width-1 my-2">
+        <div class="content-left">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for cities...">
+
+<ul id="myUL">
+  <li><a href="#">city1</a></li>
+  <li><a href="#">city2</a></li>
+
+  <li><a href="#">city3</a></li>
+  <li><a href="#">city4</a></li>
+
+  <li><a href="#">City5</a></li>
+  <li><a href="#">city6</a></li>
+  <li><a href="#">All cities</a></li>
+</ul>
+        </div>
+        <div class="content-right">
+            <img src="https://source.unsplash.com/1600x900/?hotel,room" alt="iBlog">
+        </div>
+    </div></div>
+<div class="max-width-1 m-auto">
+  <hr>
+</div><Br><Br>
+    <div class="ex2"  ><Br><Br>
+       <center> <h1 style="color:yellow;" >Get Access To Exclusive Deals</h1></center><Br>
+        <center> <h3 style="color: yellowgreen">Only the best deals reach your inbox</h3></center>
+        <Br><Br><center><input type="text"placeholder="Enter Your Email Address" style="font-size: 20px;"></center>
+         <Br> <br><center><a class="email_Button">Submit</a></center>
+      </div><Br><Br><Br>
+        
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="home-articles max-width-1 m-auto font2">
+        <h2>Hotel Booking FAQs</h2>
+        <div class="year-box adjust-year">
+            
+            
+        </div>
+        <div class="home-article">
+            
+            <div class="home-article-content font1">
+                <h3> Q. What are the advantages of online hotel booking? </h3><Br>
+                <span>A. Online hotel booking comes with great advantages for travellers.</span><Br><Br>
+                <ol>
+                    <li>You can book hotels in India or even International hotels sitting at home in few simple clicks</li>
+                    <li>You can quickly check reviews, images, ratings and amenities of all the hotels at one place and compare hotels to suit your preferences for hotel booking</li>
+                    <li>You can avail great discounts and offers on hotel booking through Goibibo</li>
+                    <li>Avoiding the last-minute hotel search in an unknown city with high prices, you can book a suitable stay for yourself at reasonable prices online</li>
+                    <li>You can avail attractive deals and cashback offers on digital payment options like credit cards, debit cards and e-wallets</li>
+                    <li>You can customize your hotel to stay with plenty of room plans available</li>
+                    <li>You can read the hotel policies online and experience a hassle-free stay</li>
+                </ol>
+            </div>
+        </div>
+        <div class="home-article-content font1">
+          <h3> Q. In current situation of Corona pandemic (Covid 19), where can we find safe and well sanitized hotels?
+          </h3><Br>
+          <span>A. Stay-Inn in collaboration with various hotels have introduced goSafe Hotels, a collection of well sanitized hotels with trained staff who follow safe Practices at all times. These hotels have a Safe and Hygienic environment with daily disinfection of rooms, fresh room linens, regular sanitization of common areas, safe kitchen practices, maintenance of social distancing, guest and staff temperature check. The staff is trained on safe Practices and equipped with masks and gloves at all times. Some of the popular cities where you can find these safe and hygienic hotels are Goa, Mumbai, Delhi, Bangalore and many more.
+             You can choose from wide variety of these well sanitised and clean hotels on Goibibo at best prices.</span><Br><Br>
+          
+      </div>
+      <div class="home-article-content font1">
+        <h3> Q. Is online hotel booking safe and reliable?
+        </h3><Br>
+        <span>A. Being an easy and time-effective process, online hotel booking is widely preferred. Booking Hotels online is safe and reliable, provided that you rely on a reputed travel website for your online hotel bookings. Goibibo is a trustworthy online hotel booking platform which has numerous filters to help you choose the best and most suitable hotel as per your budget and preference. You can go through the star ratings, reviews and travellers' images of a particular hotel to make the best decision. Goibibo also offers 'Gostays accommodations' that come with a money-back guarantee. Gostays accommodations include free wifi, AC, breakfast, TV and good hygiene. Thus, you can always choose 'Gostays accommodations' at your convenience.</span><Br><Br>
+        
+    </div>
+  </div>
+        <div class="max-width-1 m-auto">
+          <hr>
+      </div><Br>
+        <div class="home-article">
+            
+            
+                <div class="ex2" style="width: 100%;"><Br><Br>
+                  <center>  <h1 class="a1"style="color: yellow;"> The World's Fastest Growing Hotel Chain
+                  </h1></center>
+                  <Br><Br>
+                  <center>  <h2 class="a2"style="color: yellowgreen;">Join our network and grow your business </h2></center>
+                    <Br><Br><center> <a class="submit_Button" href="listProperty.html" >List your Property</a></center>
+                    </div><Br>
+            </div>
+        </div>
+        
+    </div>
+    <div class="max-width-1 m-auto">
+      <hr>
+  </div><Br><Br>
+    <div class="footer">
+        <Br><Br>
+        <center><h1 style="font-size: 110px;"> Stay - Inn Hotels</h1></center>  
+          <Br><Br><div style=" display: flex;
+            background-color: indigo;">
+            <div style="margin: auto;
+            padding: 20px;" >
+           <ul style="list-style-type:none;">
+<li style="font-size: 80px;"><a>Hotels near me</a></li><Br>
+
+           </ul></div>
+           <div style="margin: auto;
+           padding: 20px;" >
+             <ul style="list-style-type:none;">
+              <li style="font-size: 30px;"><a>Hotels in Lonavala</a></li><BR>
+              <li style="font-size: 30px;"><a>Hotels in Udaipur</a></li><BR>
+              <li style="font-size: 30px;"><a>Hotels in Mussoorie</a></li><BR>
+                
+<li style="font-size: 30px;"><a>Hotels in Goa</a></li><BR>
+  <li style="font-size: 30px;"><a>Hotels in Manali</a></li><BR>
+             </ul>
+             </div></div><Br>
+         <center> <hr style="width: 70%; "></center><Br>
+         <div  style=" display: flex;
+         background-color: DodgerBlue;" >
+          <div style="margin: auto;
+          padding: 20px;" >  <div class="right_div__title py-4 pl-2 " >
+                <h2>Follow Me</h2>
+            </div>
+            <div class="right_sub__div d-flex justify-content-around">
+                <a href="https://www.facebook.com/" target="_blank"> <i
+                        class="fab fa-facebook-square fa-3x"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"> <i
+                        class="fab fa-3x fa-instagram"></i></a>
+                <a href="https://github.com/" target="_blank"> <i
+                        class="fab fa-3x fa-github-square"></i> </a>
+                <a href="https://twitter.com/?lang=en" target="_blank"> <i
+                        class="fab fa-3x fa-twitter-square"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"> <i
+                        class="fab fa-3x fa-linkedin"></i></a>
+            </div></div><Br>
+           
+            <div style="margin: 10px;
+            padding: 20px;"> <div class="right_div__title py-4 pl-2 ">
+              <h2>Follow Me</h2>
+          </div>
+          <div class="right_sub__div d-flex justify-content-around">
+              <a href="https://www.facebook.com/" target="_blank"> <i
+                      class="fab fa-facebook-square fa-3x"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"> <i
+                      class="fab fa-3x fa-instagram"></i></a>
+              <a href="https://github.com/" target="_blank"> <i
+                      class="fab fa-3x fa-github-square"></i> </a>
+              <a href="https://twitter.com/?lang=en" target="_blank"> <i
+                      class="fab fa-3x fa-twitter-square"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank"> <i
+                      class="fab fa-3x fa-linkedin"></i></a>
+          </div></div>
+        </div><Br>
+        <center> <hr style="width: 70%; "></center><Br>
+        <Br><Br>
+          <center><p style="color: Indigo">Copyright &copy; <a href="about.html" target="_blank" style="color: indigo;">Stay-Inn.com</a> </p></center>
+          <center><p style="color: Black">Design Credits: Akihsna Productions </p> <Br><Br><Br></center>
+    </div>
+</body>
+
+</html>
